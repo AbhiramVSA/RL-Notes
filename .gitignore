@@ -1,0 +1,28 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python/runtime noise
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local virtual environments
+.venv/
+venv/
+env/
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# Generated extraction/build artifacts
+extracted_content/
+artifacts/
+artifact/
+*_artifacts/
+outputs/
+output/
