@@ -21,7 +21,7 @@
 
 ## Obsidian entry point
 
-Open `rl-fat/study_guide` in Obsidian. Start with [`00_fat_rl_index.md`](study_guide/00_fat_rl_index.md).
+From the repository root, open `study_guide/` in Obsidian. Start with [`00_fat_rl_index.md`](study_guide/00_fat_rl_index.md).
 
 ## PDF-only setup
 
@@ -73,11 +73,11 @@ Synthetic RL sample: 2 plus 2 equals 4.
 - [`scripts/`](scripts/) — CAT 1 and CAT 2 extraction scripts.
 - [`plans/`](plans/) — reference plans.
 
-The `rl` and `rl-2` directories stay available as a fallback.
+This repository does not include the original CAT 1 (`rl/`) and CAT 2 (`rl-2/`) workspaces.
 
 ## Dependencies and validation
 
-The repository has no dependency manifest, lock file, or Python version pin. It gives no Python version range or install command with fixed package versions.
+The repository has no dependency manifest, lock file, or Python version pin. It does not state a supported version range for Python.
 
 The scripts import PyMuPDF (`fitz`), `python-pptx`, `python-docx`, Pillow, `pytesseract`, and `tabula-py`. This review ran only the PDF path. It used Python 3.13.16 and PyMuPDF 1.28.2 in a temporary environment. These versions describe this review. They are not project requirements or a support range.
 
