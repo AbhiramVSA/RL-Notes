@@ -23,9 +23,23 @@
 
 Open `rl-fat/study_guide` in Obsidian. Start with [`00_fat_rl_index.md`](study_guide/00_fat_rl_index.md).
 
+## PDF-only setup
+
+Run these commands from the repository root:
+
+```sh
+python3 -m venv .venv
+. .venv/bin/activate
+python3 -m pip install PyMuPDF==1.28.2
+```
+
+PyMuPDF 1.28.2 is the version used for this PDF validation. It is a validation pin, not a project dependency pin or a supported-version range. This setup covers the PDF examples below. Other file types need additional packages or system tools.
+
 ## Extraction scripts
 
 Each script accepts one input file or a directory. A directory scan is recursive. Each script writes to `extracted_content` by default. Each script reads PDF, PowerPoint (`.pptx`), Word (`.docx`), and image (`.png`, `.jpg`, `.jpeg`, `.bmp`, `.tiff`) files.
+
+Run these commands from the repository root, with the virtual environment above activated:
 
 ```sh
 python3 scripts/cat1_extract_course_material.py --input ./input-files --output ./extracted_content/cat1
