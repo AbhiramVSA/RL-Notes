@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/rl-notes-logo.png" alt="Open notebook, pencil, reward loop, and decision tree icon" width="160">
+  <img src="assets/rl-notes-logo.png" alt="Open notebook, pencil, reward loop, and decision tree icon" width="200" />
 </p>
 
 <h1 align="center">Reinforcement Learning FAT Workspace</h1>
